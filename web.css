@@ -1,0 +1,92 @@
+.logo{
+    display: block;
+    margin-top: -15px;
+}
+
+.logo h1  {
+    font-size: 50px;
+    font-family: cursive,sans-serif;
+    color: #af4d4d;
+}
+
+.logo h5  {
+    font-size: 20px;
+    margin-left: 160px;
+    color: blueviolet;
+    margin-top: -20px;
+}
+
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head > div{
+    min-height: 50px;
+}
+ .gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    margin-top: -300px;
+} 
+
+#img1{
+    height: 400px;
+    width: 250px;
+}
+#img2{
+    
+    height:200px;
+    width: 250px;
+}
+
+#img3{
+   
+    height:300px;
+    width: 250px;
+}
+#img4{
+   
+    height:200px;
+    width: 250px;
+    margin-top: -4px;
+}
+#img5{
+   
+    height: 400px;
+    width: 250px;
+    margin-top: -204px;
+}
+#img6{
+   
+    height:300px;
+    width: 250px;
+    margin-top: -104px;
+}
+
+.container{
+    background: white;
+    display: flex;
+    padding: 10px;
+    flex-flow: row-reverse;
+}
+.container > div {
+width: 180px;
+height: 5px;
+margin: 1px;
+align-items: stretch;
+margin-top: -9%;
+}
+.container a:hover{
+    background: brown;
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.container a{
+    text-decoration: none;
+}
+    
